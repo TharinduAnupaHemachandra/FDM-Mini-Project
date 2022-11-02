@@ -25,7 +25,7 @@ def add_bg_from_local(image_file):
 
 
 # loading the saved model
-loaded_model = pickle.load(open('../models/FD-AdaBoostClassifier.sav', 'rb'))
+loaded_model = pickle.load(open('/app/models/FD-AdaBoostClassifier.sav', 'rb'))
 
 
 # creating a function for Prediction

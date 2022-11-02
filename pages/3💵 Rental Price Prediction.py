@@ -31,7 +31,7 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 
 #st.set_page_config(layout="wide")
 # loading the saved model
-loaded_model = pickle.load(open('../models/rfregressor.sav', 'rb'))
+loaded_model = pickle.load(open('/app/models/rfregressor.sav', 'rb'))
 
 
 # creating a function for Prediction
