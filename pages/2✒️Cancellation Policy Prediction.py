@@ -19,13 +19,13 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('wp5.jpg')
+add_bg_from_local('../wp5.jpg')
 
 
 
 
 # loading the saved model
-loaded_model = pickle.load(open(r'FD-AdaBoostClassifier.sav', 'rb'))
+loaded_model = pickle.load(open('../models/FD-AdaBoostClassifier.sav', 'rb'))
 
 
 # creating a function for Prediction

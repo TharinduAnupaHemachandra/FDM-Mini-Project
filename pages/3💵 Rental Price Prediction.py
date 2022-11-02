@@ -20,7 +20,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('wp5.jpg')
+add_bg_from_local('../wp5.jpg)
 
 
 
@@ -31,7 +31,7 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 
 #st.set_page_config(layout="wide")
 # loading the saved model
-loaded_model = pickle.load(open(r'rfregressor.sav', 'rb'))
+loaded_model = pickle.load(open('../models/rfregressor.sav', 'rb'))
 
 
 # creating a function for Prediction
