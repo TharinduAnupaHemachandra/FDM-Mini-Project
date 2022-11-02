@@ -96,7 +96,7 @@ def get_data(url):
 colors = get_colors()
 
 #url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
-data = pd.read_csv('../data/clustering/preprocessed_dataset_1.csv')
+data = pd.read_csv('/app/data/clustering/preprocessed_dataset_1.csv')
 columns = ['longitude', 'latitude', 'accommodates',	'availability_30',	'bathrooms',	'bed_type',	'bedrooms',	'beds',	'calculated_host_listings_count',	'cancellation_policy',	'guests_included',	'has_availability',	'host_listings_count',	'instant_bookable',	'maximum_nights', 'price']
 
 
